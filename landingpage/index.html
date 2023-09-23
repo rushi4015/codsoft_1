@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFW Fitness</title>
+    <style>
+        * {
+            box-sizing: border-box;
+           
+        }
+
+        body {
+            background: url('wallpaperflare.com_wallpaper.jpg');
+            background-size: 100%, 100%;
+            
+            
+            background-repeat: no-repeat;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        @media(max-width:5000px) and (min-width:1388px){
+            body{
+            background-size: 100%,100%;
+            }
+        }
+        @media(max-width:1388px) and (min-width :1003px){
+            body{
+                background-size: 200%;
+                color:red;
+            }
+        }
+        @media(max-width: 1003px) and (min-width:600px){
+            body{
+                background-size: 300%;
+            }
+        }
+    
+        
+        header {
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .left {
+            
+            width: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .left img {
+            width: 90px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .mid {
+            
+            width: 50%;
+        }
+        nav {
+            
+        }
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        nav li {
+            
+            margin: 0 8px;
+            list-style: none;
+        }
+        nav li a {
+            color: white;
+            text-decoration: none;
+            font-size: 28px;
+            font-weight: 500;
+            opacity: 0.7;
+        }
+        nav li a:hover {
+            opacity: 1;
+        }
+        
+     
+        .maincontent {
+            
+        }
+
+        .box1 {
+            display: block;
+            position: absolute;
+            top: 300px;
+            left: 150px;
+            margin: auto;
+            width: 25%;
+            padding: 70px 40px;
+            border: 2px solid white;
+            box-sizing: border-box;
+            border-radius: 40px;
+        }
+
+        .box1 p {
+            text-align: justify;
+            font-size: 18px;
+        }
+
+        .container h1 {
+            font-size: 40px;
+        }
+
+        .box2 {
+            display: block;
+            position: absolute;
+            top: 300px;
+            right: 250px;
+            margin: auto;
+            width: 35%;
+            padding: 70px 40px;
+            box-sizing: border-box;
+            border-radius: 40px;
+            font-size: 25px;
+        }
+
+        .box2 h1 {
+            text-align: left;
+        }
+
+        .box2 a {
+            color: white;
+            text-decoration: none;
+            width: 30px;
+            border: 2px solid white;
+            padding: 8px 10px;
+            border-radius: 13px;
+        }
+
+        .box2 a:hover {
+            background-color: rgb(152, 149, 149);
+            color: white;
+        }
+        
+    </style>
+</head>
+
+<body>
+    
+    <header class="top">
+        <div class="left">
+          
+            <img src="dumbbell-35169.png" alt="">
+            <div>
+                SFW Fitness
+            </div>
+        </div>
+        <div class="mid">
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Training</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+          
+            
+    </header>
+    <div class="maincontent">
+        <div class="box1">
+            <h1>Fitness Program</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim dignissimos impedit dicta
+                recusandae
+                minima sit eius, tempore suscipit porro voluptatum nemo quidem. Hic sapiente reiciendis atque officiis
+                laborum. Commodi alias saepe nemo. Asperiores Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt molestiae dignissimos earum natus. Repudiandae deleniti dolore corporis, provident, voluptate
+                sit
+                libero vel, temporibus est fugiat sint soluta officia facilis reiciendis.</p>
+        </div>
+        <div class="box2">
+            <h1>Register yourself to SFW Fitness to get best health benifits</h1>
+            <a href="LoginPage.html">Register Here</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@media (max-width: 800px) and (min-width: 700px) {
+    .message {
+        margin: 3rem 2rem;
+    }
+    .form-control {
+        width: 38rem;
+    }
+
+    .devimg img {
+        width: 37rem;
+        margin-right: 0rem;
+    }
+}
+

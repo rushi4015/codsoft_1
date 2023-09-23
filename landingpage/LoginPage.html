@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url('wallpaperflare.com_wallpaper.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .left {
+          
+            width: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .left img {
+            width: 90px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .mid {
+           
+            width: 50%;
+        }
+        nav {
+           
+        }
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        nav li {
+           
+            margin: 0 8px;
+            list-style: none;
+        }
+        nav li a {
+            color: white;
+            text-decoration: none;
+            font-size: 28px;
+            font-weight: 500;
+            opacity: 0.7;
+        }
+        nav li a:hover {
+            opacity: 1;
+        }
+      
+
+        
+        .container {
+            position: absolute;
+            top: 221px;
+            right: 300px;
+        }
+
+        .container input {
+            padding: 8px 20px;
+            text-align: center;
+            margin: 20px 3px;
+            border: 2px solid white;
+            border-radius: 12px;
+            color: black;
+            font-size: 20px;
+            width: 530px;
+            font-weight: bold;
+        }
+        .container button {
+            padding: 8px 20px;
+            text-align: center;
+            margin: 20px 3px;
+            background: white;
+            border: none;
+            border-radius: 12px;
+            color: black;
+            font-size: 20px;
+            width: 575px;
+            font-weight: bold;
+        }
+        .container button:hover {
+            background-color: rgb(174, 170, 170);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <div class="left">
+            <img src="dumbbell-35169.png" alt="">
+            <div>
+                SFW Fitness
+            </div>
+        </div>
+        <div class="mid">
+         
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Training</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <div class="container">
+        <h2 align="center">Register Here</h2>
+        <form action="index.html">
+            <table>
+               
+                    <tr>
+                        <td></td>
+                        <td><input type="text" name="fname" placeholder="First Name" class="inputName"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="text" name="lname" placeholder="Last Name" class="inputName"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="text" name="email" placeholder="E-mail" class="inputName"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="text" name="uname" placeholder="Username" class="inputName"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="password" name="passwd" placeholder="Password" class="inputName"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button>Register</button></td>
+                    </tr>
+               
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

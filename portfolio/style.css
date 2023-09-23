@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;800&display=swap');
+
+* {
+    
+    font-family: 'Schibsted Grotesk', sans-serif;
+    
+}
+
+:root {
+    --color-primary: #191d2b;
+    --color-secondary: #27AE60;
+    --color-white: #FFFFFF;
+    --color-black: #000;
+    --color-grey0: #f8f8f8;
+    --color-grey-1: #dbe1e8;
+    --color-grey-2: #b2becd;
+    --color-grey-3: #6c7983;
+    --color-grey-4: #454e56;
+    --color-grey-5: #2a2e35;
+    --color-grey-6: #12181b;
+    --br-sm-2: 14px;
+    --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
+}
+
+
+body {
+
+    background-color: #212529;
+}
+
+
+.navbar-brand img {
+    width: 3rem;
+    margin: 0rem 1rem;
+}
+
+.nav-item a {
+    color: white;
+    font-size: 1.1rem;
+    margin: 0rem 1.1rem;
+    font-family: 'SF Mono';
+}
+
+.devSection {
+   
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+   
+}
+
+
+#portfolioSection {
+    padding-bottom: 18rem;
+}
+
+#homeSection {
+    padding: 0rem 0rem;
+}
+.section button img {
+    width: 2.5rem;
+    background-color: none;
+   
+}
+
+.Sectitle {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-top: 6.4rem;
+}
+
+.Sectitle span {
+    color: #27AE60;
+    
+}
+
+.imgSection {
+    margin: 6rem 0rem;
+    height: 100%;
+
+}
+
+.imgSection img {
+    height: 40rem;
+    border: 10px solid white;
+    width: 30rem;
+    margin: 0rem;
+    transition: all;
+    transition-duration: 0.7s;
+    transition-delay: 0.03s;
+}
+
+.imgSection img:hover {
+    border: 10px solid #27AE60;
+}
+
+.devHomeContainer {
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+.nameTitle {
+    font-size: 2.7rem;
+    font-family: 'SF Mono';
+}
+
+.nameDes {
+    font-size: 1.5rem;
+    font-family: 'SF Mono';
+}
+
+.nameTitle span {
+    color: #27AE60;
+    font-family: 'SF Mono';
+}
+
+
+.infoCont {
+    display: flex;
+ 
+    justify-content: space-evenly;
+    padding: 5rem 0rem;
+    flex-wrap: wrap;
+}
+
+.infobox {
+   
+    width: 50rem;
+    padding: 0rem 2rem;
+}
+
+.InfoTitle {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.devInfo {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-family: 'SF Mono';
+}
+
+.downBtn {
+    margin: 4rem 0rem;
+}
+
+.downBtn a {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.03s;
+    text-decoration: none
+}
+
+.downBtn a:hover {
+    background-color: #27AE60;
+    color: white;
+    border: 2px solid #27AE60;
+
+
+}
+
+.inBox {
+  
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+}
+
+.workBoxes {
+    border: 1px solid white;
+    height: 12rem;
+    width: 18rem;
+    margin: 0rem 2.1rem 2rem;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.03s;
+    padding: 4px 14px;
+    border-radius: 14px;
+
+   
+}
+
+.workBoxes:hover {
+    border: 1px solid #27AE60;
+    transform: scale(1.04);
+    
+}
+
+.workBoxes hr {
+    width: 4rem;
+}
+
+.number {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.completion {
+    font-size: 1.5rem;
+}
+
+.devskillcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.skillCont {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0rem 4rem;
+    height: auto;
+    width: 80rem;
+    border-radius: 28px;
+    background-color: #12181b;
+    flex-wrap: wrap;
+}
+
+.skillBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skillBox .progress {
+    margin: 5.5rem 0rem;
+    width: 33rem;
+}
+
+.timeTitle {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.skillMeter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    ;
+}
+
+.skillName {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid white; */
+    width: 6rem;
+    margin-left: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.hr {
+    display: block;
+    width: 30%;
+    margin: auto;
+    
+}
+
+.skillBox {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.timeTitle span {
+    color: #27AE60;
+}
+
+.timeBox {
+   
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+.timings {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10rem;
+}
+
+.timeIco {
+    background-color: #27AE60;
+    border-radius: 70px;
+    width: 4rem;
+    padding: 1rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.line {
+    height: 4rem;
+    border: 1px solid white;
+    opacity: 0.2;
+    position: relative;
+    left: -35px;
+}
+
+
+.timeline {
+    background: var(--primary-color);
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+.timeOuter {
+    border-left: 2px solid #333;
+}
+
+
+.timeCard {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background: #333;
+    color: gray;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+
+.timeInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.timetitle {
+    color: #27AE60;
+    position: relative;
+}
+
+
+.timetitle::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -39px;
+    border: 3px solid #27AE60;
+}
+
+
+.box {
+    display: flex;
+}
+
+.first {
+    color: #27AE60;
+}
+
+.projectName {
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 5.2rem;
+    text-transform: uppercase;
+}
+
+.projectNavContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+   
+    flex-wrap: wrap;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    
+}
+
+.projectNav {
+    display: flex;
+    
+    padding: 0.5rem 0rem;
+    
+    background-color: #2a2b2b;
+    border-radius: 10px;
+   
+
+}
+
+.projectNavTitle {
+    
+    padding: 1rem 6rem;
+    border-radius: 9px;
+    border: none;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.03s;
+    margin: 0rem 1rem;
+}
+
+.projectNav button {
+    color: white;
+    text-decoration: none;
+    transition: all;
+    transition-duration: 0.2s;
+    transition-delay: 0.03s;
+}
+
+.projectBox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 15rem;
+    width: 20rem;
+    border-radius: 18px;
+    background-color: black;
+    margin-top: 3rem;
+}
+
+.project img {
+    height: 13rem;
+    width: 18rem;
+}
+
+#spimg,
+#dimg,
+#stimg {
+    height: 8rem;
+    width: 9rem
+}
+
+.light {
+    background-color: white;
+    color: pink;
+}
+
+.addresstitle {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 4rem;
+}
+
+.address {
+    padding: 0rem 5rem;
+    
+}
+
+.address th {
+    font-size: 1.5rem;
+}
+
+.address td {
+    font-size: 1.2rem;
+}
+
+.ContactContainer {
+    display: flex;
+    justify-content: space-evenly;
+  
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.form-control {
+    width: 40rem;
+    
+    border: 1px solid rgb(167, 164, 164);
+ 
+}
+
+.downBtn1 {
+    margin: 4rem 0rem;
+}
+
+.downBtn1 a {
+    background-color: #27AE60;
+   
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.03s;
+    text-decoration: none
+}
+
+.downBtn1 a:hover {
+    background-color: #1f8c4d;
+    color: white;
+   
+
+}
+
+.touch {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.message {
+    margin: 3rem 3rem;
+}
+
+.devimg img {
+   
+    width: 37rem;
+    margin-top: 4rem;
+    margin-right: 4rem;
+}
+
+.devplatforms {
+  
+    position: fixed;
+    bottom: 20rem;
+    left: 1.5rem;
+    z-index: 999;
+    width: 5rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.devplatform img {
+    height: 1.5rem;
+    width: 1.5rem;
+    filter: invert(100%);
+}
+
+.devplatform {
+    margin: 1rem 2rem;
+   
+    border-radius: 50%;
+    padding: 1.5rem;
+    background-color: #27AE60;
+    box-shadow: 2px 2px 40px 0px rgb(15, 15, 15);
+}
+
+
+.dark-theme {
+    color: rgb(41, 39, 39);
+    background-color: white;
+}
+
+.controls {
+    
+    display: flex;
+    width: 17rem;
+    align-items: center;
+    height: 4rem;
+    justify-content: space-between;
+}
+
+.control {
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.03s;
+}
+
+.control:hover {
+    border: 1px solid #27AE60;
+    background-color: #27AE60;
+}
+
+.control a {
+    color: white;
+}
